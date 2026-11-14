@@ -1,0 +1,34 @@
+﻿  main.cpp
+C:\Users\Memory\Desktop\remaked_maotaw\Runtime.hpp(1390,31): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'main.cpp')
+  
+C:\Users\Memory\Desktop\remaked_maotaw\Runtime.hpp(1434,28): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'main.cpp')
+  
+C:\Users\Memory\Desktop\remaked_maotaw\Runtime.hpp(1588,28): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'main.cpp')
+  
+C:\Users\Memory\Desktop\remaked_maotaw\Runtime.hpp(1590,28): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'main.cpp')
+  
+C:\Users\Memory\Desktop\remaked_maotaw\main.cpp(948,49): warning C4100: 'h': unreferenced parameter
+C:\Users\Memory\Desktop\remaked_maotaw\main.cpp(2234,17): warning C4189: 'editorW': local variable is initialized but not referenced
+C:\Users\Memory\Desktop\remaked_maotaw\Runtime.hpp(301,20): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file 'main.cpp')
+      C:\Users\Memory\Desktop\remaked_maotaw\Runtime.hpp(301,20):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Memory\Desktop\remaked_maotaw\Runtime.hpp(1379,45):
+          see reference to function template instantiation 'T MaotawRuntime::Memory::Read<uintptr_t>(uintptr_t)' being compiled
+          with
+          [
+              T=uintptr_t
+          ]
+  
+  PreviewRenderer.cpp
+C:\Users\Memory\Desktop\remaked_maotaw\PreviewRenderer.cpp(832,67): warning C4100: 'lParam': unreferenced parameter
+  Generating code
+  1154 of 2253 functions (51.2%) were compiled, the rest were copied from previous compilation.
+    344 functions were new in current compilation
+    71 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Maotaw_Project.vcxproj -> C:\Users\Memory\Desktop\remaked_maotaw\x64\Release\Maotaw_Project.exe

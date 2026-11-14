@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Maotaw_Project\\x64\\Release\\Runtime.obj",
+            "outputs": [
+                "Maotaw_Project\\x64\\Release\\Runtime.hpp.obj.dt.module.json",
+                "Maotaw_Project\\x64\\Release\\Runtime.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
