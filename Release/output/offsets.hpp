@@ -1,0 +1,61 @@
+// Generated using https://github.com/a2x/cs2-dumper
+// 2026-11-12 13:07:45.363725600 UTC
+
+#pragma once
+
+// Runtime-mutable module offsets. Overridden from output/offsets.ini when present.
+
+#include <cstddef>
+#include <cstdint>
+
+namespace cs2_dumper {
+    namespace offsets {
+        // Module: client.dll
+        namespace client_dll {
+            inline std::ptrdiff_t dwCSGOInput = 0x2569E30;
+            inline std::ptrdiff_t dwEntityList = 0x2709010;
+            inline std::ptrdiff_t dwGameEntitySystem = 0x2709010;
+            inline std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2120;
+            inline std::ptrdiff_t dwGameRules = 0x25537E8;
+            inline std::ptrdiff_t dwGlobalVars = 0x2221AB8;
+            inline std::ptrdiff_t dwGlowManager = 0x2550500;
+            inline std::ptrdiff_t dwLocalPlayerController = 0x252B0C8;
+            inline std::ptrdiff_t dwLocalPlayerPawn = 0x2553D38;
+            inline std::ptrdiff_t dwPlantedC4 = 0x24B9B90;
+            inline std::ptrdiff_t dwPrediction = 0x2553C40;
+            inline std::ptrdiff_t dwSensitivity = 0x2551038;
+            inline std::ptrdiff_t dwSensitivity_sensitivity = 0x58;
+            inline std::ptrdiff_t dwViewAngles = 0x256A4B8;
+            inline std::ptrdiff_t dwViewMatrix = 0x2559640;
+            inline std::ptrdiff_t dwViewRender = 0x255A008;
+            inline std::ptrdiff_t dwWeaponC4 = 0x24B83B0;
+        }
+        // Module: engine2.dll
+        namespace engine2_dll {
+            inline std::ptrdiff_t dwBuildNumber = 0x6B2D18;
+            inline std::ptrdiff_t dwNetworkGameClient = 0x9AFB30;
+            inline std::ptrdiff_t dwNetworkGameClient_clientTickCount = 0x398;
+            inline std::ptrdiff_t dwNetworkGameClient_deltaTick = 0x24C;
+            inline std::ptrdiff_t dwNetworkGameClient_isBackgroundMap = 0x2C143F;
+            inline std::ptrdiff_t dwNetworkGameClient_localPlayer = 0xF8;
+            inline std::ptrdiff_t dwNetworkGameClient_maxClients = 0x240;
+            inline std::ptrdiff_t dwNetworkGameClient_serverTickCount = 0x24C;
+            inline std::ptrdiff_t dwNetworkGameClient_signOnState = 0x230;
+            inline std::ptrdiff_t dwWindowHeight = 0x9B4294;
+            inline std::ptrdiff_t dwWindowWidth = 0x9B4290;
+        }
+        // Module: inputsystem.dll
+        namespace inputsystem_dll {
+            inline std::ptrdiff_t dwInputSystem = 0x46BC0;
+        }
+        // Module: matchmaking.dll
+        namespace matchmaking_dll {
+            inline std::ptrdiff_t dwGameTypes = 0x1AEFC0;
+        }
+        // Module: soundsystem.dll
+        namespace soundsystem_dll {
+            inline std::ptrdiff_t dwSoundSystem = 0x532470;
+            inline std::ptrdiff_t dwSoundSystem_engineViewData = 0x6C;
+        }
+    }
+}
